@@ -30,21 +30,17 @@ etc/firmware/rampatch_tlv_3.2.tlv
 bin/mm-qcamera-app
 bin/mm-qcamera-daemon
 lib/hw/camera.msm8937.so
-lib/libarcsoft_beauty_shot.so
 lib/libfilm_emulation.so
 lib/libHDR.so
 lib/liblghdri.so
 lib/libmm-qcamera.so
 lib/libmmcamera_interface.so
 lib/libmmjpeg_interface.so
-lib/libmorpho_image_stab31.so
-lib/libn2pm.so
 lib/libqomx_core.so
 lib/libSJlowlight.so
 vendor/lib/libchromaflash.so
 vendor/lib/libflash_front.so
 vendor/lib/libflash_pmic.so
-vendor/lib/libImageCorrectionWrapper.so
 vendor/lib/libjni_dualcamera.so
 vendor/lib/libjpegdhw.so
 vendor/lib/libjpegdmahw.so
@@ -65,7 +61,6 @@ vendor/lib/libmmcamera2_pp_buf_mgr.so
 vendor/lib/libmmcamera2_q3a_core.so
 vendor/lib/libmmcamera2_sensor_modules.so
 vendor/lib/libmmcamera2_stats_algorithm.so
-vendor/lib/libmmcamera2_stats_algorithm_sensors.so
 vendor/lib/libmmcamera2_stats_modules.so
 vendor/lib/libmmcamera_cac3_lib.so
 vendor/lib/libmmcamera_chromaflash_lib.so
@@ -79,14 +74,8 @@ vendor/lib/libmmcamera_facedetection_lib.so
 vendor/lib/libmmcamera_faceproc.so
 vendor/lib/libmmcamera_faceproc2.so
 vendor/lib/libmmcamera_hdr_gb_lib.so
-vendor/lib/libmmcamera_hi842.so
-vendor/lib/libmmcamera_hi842_eeprom.so
-vendor/lib/libmmcamera_hi1332_lgit.so
-vendor/lib/libmmcamera_hi1332_sunny.so
 vendor/lib/libmmcamera_imglib.so
-vendor/lib/libmmcamera_lgit_hi1332_eeprom.so
 vendor/lib/libmmcamera_llvd.so
-vendor/lib/libmmcamera_mn34153.so
 vendor/lib/libmmcamera_optizoom_lib.so
 vendor/lib/libmmcamera_paaf_lib.so
 vendor/lib/libmmcamera_pdaf.so
@@ -94,10 +83,8 @@ vendor/lib/libmmcamera_pdafcamif.so
 vendor/lib/libmmcamera_ppbase_module.so
 vendor/lib/libmmcamera_ppeiscore.so
 vendor/lib/libmmcamera_quadracfa.so
-vendor/lib/libmmcamera_s5k5e8_cowell.so
 vendor/lib/libmmcamera_s5k5e8_sunny.so
 vendor/lib/libmmcamera_stillmore_lib.so
-vendor/lib/libmmcamera_sunny_hi1332_eeprom.so
 vendor/lib/libmmcamera_sw2d_lib.so
 vendor/lib/libmmcamera_thread_services.so
 vendor/lib/libmmcamera_tintless_algo.so
@@ -133,7 +120,7 @@ etc/camera_config.xml
 etc/camera/camera_config.xml
 etc/camera/sl846_sunny_chromatix.xml
 etc/camera/sl846_cowell_chromatix.xml
-etc/camera/hi1333_lgit_chromatix.xml
+etc/camera/hi1333_cowell_chromatix.xml
 etc/camera/hi1333_sunny_chromatix.xml
 etc/camera/s5k5e8_cowell_chromatix.xml
 etc/camera/s5k5e8_sunny_chromatix.xml
@@ -366,15 +353,6 @@ etc/firmware/a300_pfp.fw
 etc/firmware/a330_pfp.fw
 etc/firmware/a330_pm4.fw
 etc/firmware/a300_pm4.fw
-
-# Fingerprint
-bin/fingerprintd
-lib/hw/fingerprint.msm8937.so
-lib/libfpfactory.so
-lib/libfpfactory_jni.so
-lib/libgf_algo.so
-lib/libgf_ca.so
-lib/libgf_hal.so
 
 # FM
 bin/fm_qsoc_patches
