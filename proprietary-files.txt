@@ -31,7 +31,6 @@ bin/mm-qcamera-app
 bin/mm-qcamera-daemon
 lib/hw/camera.msm8937.so
 lib/libfilm_emulation.so
-lib/libHDR.so
 lib/liblghdri.so
 lib/libmm-qcamera.so
 lib/libmmcamera_interface.so
