@@ -1,6 +1,8 @@
 [
   {
+    "remote": "github",
     "repository": "android_packages_resources_devicesettings",
     "target_path": "packages/resources/devicesettings"
+    "branch": "cm-14.1"
   }
 ]
